@@ -8,7 +8,7 @@ import SignUpScreen from "./screens/SignUpScreen";
 
 const Stack = createStackNavigator();
 
-export default function App() {
+export default function index() {
   const [showSplash, setShowSplash] = useState(true);
 
   useEffect(() => {
